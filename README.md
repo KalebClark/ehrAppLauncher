@@ -31,4 +31,4 @@ Load the example eal.xml file located in c:\ehrAppLauncher. You may not need to 
 5. Click "Customize Menus"
 6. Create new menu items for with the following action "c:\ehrAppLauncher\ehrAppLauncher.exe <alias>  $(patient.handle) $(PARAM.CPRS_HANDLE) <server IP Address> <server port>"
 
-This software is copyright 2013 Kaleb Clark under the (GNU General Public License)[http://www.gnu.org/licenses/gpl.html]
+This software is copyright 2013 Kaleb Clark under the [GNU General Public License](http://www.gnu.org/licenses/gpl.html)
