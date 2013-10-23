@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<apps>
+  <app name="Visa Viewer" alias="vistaView">
+    <x32Path>C:\Program Files\VistA\Imaging\MagImageDisplay.exe</x32Path>
+    <x64Path>C:\Program Files (x86)\VistA\Imaging\MagImageDisplay.exe</x64Path>
+  </app>
+  <app name="Vista Capture" alias="vistaCap">
+    <x32Path>C:\Program Files\VistA\Imaging\MagImageCapture.exe</x32Path>
+    <x64Path>C:\Program Files (x86)\VistA\Imaging\MagImageCapture.exe</x64Path>
+  </app>
+</apps>

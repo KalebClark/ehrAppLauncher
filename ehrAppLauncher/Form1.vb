@@ -60,7 +60,9 @@ Public Class Form1
 
         'check for saved config file
         If (My.Settings.configFile = "") Then
-            MsgBox("No Default config. Find the xml file on the server.")
+            MsgBox("No Default config. Please locate the configuration file.")
+            xmlConfig.xmlConfigFile = "eal.xml"
+            xmlConfig.loadConfig()
         Else
             xmlConfig.xmlConfigFile = My.Settings.configFile
             txtConfFile.Text = My.Settings.configFile
