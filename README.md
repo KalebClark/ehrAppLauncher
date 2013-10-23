@@ -29,4 +29,4 @@ Load the example eal.xml file located in c:\ehrAppLauncher. You may not need to 
 3. Enter VuCentric EHR Design Mode.
 4. Design->Desktop Properties
 5. Click "Customize Menus"
-6. Create new menu items for with the following action (c:\ehrAppLauncher\ehrAppLauncher.exe vistaView  $(patient.handle) $(PARAM.CPRS_HANDLE) 172.16.10.10 9206)
+6. Create new menu items for with the following action (c:\ehrAppLauncher\ehrAppLauncher.exe <alias>  $(patient.handle) $(PARAM.CPRS_HANDLE) <server IP Address> <server port>)
