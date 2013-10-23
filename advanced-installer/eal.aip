@@ -8,10 +8,10 @@
     <ROW Property="BannerBitmap" MultiBuildValue="DefaultBuild:banner_image.jpg" Type="1"/>
     <ROW Property="DialogBitmap" MultiBuildValue="DefaultBuild:dialog_image.jpg" Type="1"/>
     <ROW Property="Manufacturer" Value="Kaleb Clark" ValueLocId="*"/>
-    <ROW Property="ProductCode" Value="1033:{64A649B9-1B6C-49FF-BFFD-AED4883D54A2} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{839240DE-CA06-46B7-83B5-B071DFA85088} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="EHR App Launcher" ValueLocId="*"/>
-    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="ProductVersion" Value="1.0.1"/>
     <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:ReallySuppress"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{BE823796-A60A-40FB-94BA-38CB5F62C033}"/>
@@ -37,7 +37,7 @@
     <ROW File="gpl.txt" Component_="eal.xml" FileName="gpl.txt" Attributes="0" SourcePath="..\ehrAppLauncher\publish\release\gpl.txt" SelfReg="false" Sequence="4"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
-    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="..\Binaries" PackageFileName="setup" Languages="en" InstallationType="4"/>
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="..\Binaries" PackageFileName="eal-install" Languages="en" InstallationType="4"/>
     <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
